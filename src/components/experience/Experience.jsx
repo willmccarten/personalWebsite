@@ -39,8 +39,36 @@ const Experience = () => {
             </article>
           </div>
         </div>
+        
         <div className="experience__backend">
-
+          <h3>Backend Development</h3>
+            <div className="experience__content">
+              <article className='experience__details'>
+                <BsPatchCheckFill />
+                <h4>Java</h4>
+                <small className='text-light'>Experienced</small>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill />
+                <h4>C++</h4>
+                <small className='text-light'>Experienced</small>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill />
+                <h4>Python</h4>
+                <small className='text-light'>Intermediate</small>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill />
+                <h4>MySQL</h4>
+                <small className='text-light'>Limited</small>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill />
+                <h4>Firebase</h4>
+                <small className='text-light'>Limited</small>
+              </article>
+            </div>
         </div>
       </div>
 
