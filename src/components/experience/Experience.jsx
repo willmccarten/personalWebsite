@@ -13,7 +13,29 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-            
+              <BsPatchCheckFill />
+              <h4>HTML</h4>
+              <small className='text-light'>Experienced</small>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill />
+              <h4>HTML</h4>
+              <small className='text-light'>Experienced</small>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill />
+              <h4>HTML</h4>
+              <small className='text-light'>Experienced</small>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill />
+              <h4>HTML</h4>
+              <small className='text-light'>Experienced</small>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill />
+              <h4>HTML</h4>
+              <small className='text-light'>Experienced</small>
             </article>
           </div>
         </div>
