@@ -19,23 +19,23 @@ const Experience = () => {
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>HTML</h4>
+              <h4>CSS</h4>
+              <small className='text-light'>Intermediate</small>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill />
+              <h4>JavaScript</h4>
               <small className='text-light'>Experienced</small>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>HTML</h4>
+              <h4>React</h4>
               <small className='text-light'>Experienced</small>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className='text-light'>Experienced</small>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>Bootstrap</h4>
+              <small className='text-light'>Limited</small>
             </article>
           </div>
         </div>
