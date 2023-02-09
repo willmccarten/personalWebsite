@@ -21,8 +21,10 @@ const Portfolio = () => {
 
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/willmccarten" className='btn' target='_blank'></a>
-          <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/willmccarten" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -31,8 +33,10 @@ const Portfolio = () => {
 
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/willmccarten" className='btn' target='_blank'></a>
-          <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/willmccarten" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -41,8 +45,10 @@ const Portfolio = () => {
 
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/willmccarten" className='btn' target='_blank'></a>
-          <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/willmccarten" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -51,8 +57,10 @@ const Portfolio = () => {
 
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/willmccarten" className='btn' target='_blank'></a>
-          <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/willmccarten" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -61,8 +69,10 @@ const Portfolio = () => {
 
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/willmccarten" className='btn' target='_blank'></a>
-          <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/willmccarten" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -71,8 +81,10 @@ const Portfolio = () => {
 
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/willmccarten" className='btn' target='_blank'></a>
-          <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/willmccarten" className='btn' target='_blank'>GitHub</a>
+            <a href="https://github.com/willmccarten" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
         
       </div>
