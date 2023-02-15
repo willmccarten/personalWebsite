@@ -1,3 +1,14 @@
+# Hello! Welcome to my website! Thank you for visiting! 
+
+
+### Read below for the Creat React App information to get your own version of the site started
+
+----------
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
