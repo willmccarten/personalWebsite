@@ -1,5 +1,6 @@
-# Hello! Welcome to my website! Thank you for visiting! 
+# Hello! Welcome to the Repo!
 
+I made this website using the help of a couple tutorials that I will drop the links to here in once I am done with the site completely. This project was mainly to get exposed to Reat, CSS, and HTML in more depth. The best way I saw to do that is to learn by following along myself. In the end I also get a cool website that can act as a physical representation of what I have been learning. 
 
 ### Read below for the Creat React App information to get your own version of the site started
 
@@ -9,7 +10,7 @@
 
 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
