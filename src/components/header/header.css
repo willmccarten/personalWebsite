@@ -41,14 +41,24 @@ header {
 /* image */
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    left: calc(50% - 11rem);
+    width: 30rem;
+    height: 34rem;
+    left: calc(50% - 15rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
     position: absolute;
+}
+
+.me img {
+    
+    border-radius: 4rem 4rem 0 0;
+    overflow: hidden;
+    width: 100%;
+    height: 85%;
+    
+
 }
 
 /* scrool down */
