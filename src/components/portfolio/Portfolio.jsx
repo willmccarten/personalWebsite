@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/atlas.png'
-import IMG2 from '../../assets/aman.png'
+import IMG1 from '../../assets/atlas.PNG'
+import IMG2 from '../../assets/aman.PNG'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -18,19 +18,21 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    id: 1,
+    id: 2,
     image: IMG1,
     title: 'Gator Atlas',
     github: 'https://github.com/matbensch/DragonBallSWE',
     demo: 'https://youtu.be/76k2--H7xm8'
   },
   {
-    id: 2,
+    id: 1,
     image: IMG2,
     title: 'Project A.M.A.N.',
     github: 'https://github.com/jkirkland722/Project-AMAN',
     demo: 'https://youtu.be/aN7y0A3oTF0'
   },
+
+  /*
   {
     id: 3,
     image: IMG3,
@@ -59,6 +61,8 @@ const data = [
     github: 'https://github.com/willmccarten',
     demo: 'https://github.com/willmccarten'
   }
+  */
+
 ]
 
 const Portfolio = () => {
