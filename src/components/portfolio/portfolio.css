@@ -38,6 +38,11 @@
     margin-bottom: 1rem;
 }
 
+.swiper {
+    width: 40%;
+    height: 40%;
+}
+
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background: var(--color-primary);
 }
@@ -47,11 +52,14 @@
     .portfolio__container {
         width: var(--conatiner-width-md);
 
-
-        /*
         grid-template-columns: repeat(2, 1fr);
         gap: 1.2rem;
-        */
+        
+    }
+
+    .swiper {
+        width: 80%;
+        height: 80%;
     }
 }
 
@@ -59,9 +67,9 @@
 @media screen and (max-width: 600px) {
     .portfolio__container {
         width: var(--container-width-sm);
-        /*
+        
         grid-template-columns: 1fr;
         gap: 1rem;
-        */
+        
     }
 }

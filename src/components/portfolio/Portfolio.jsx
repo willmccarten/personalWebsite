@@ -75,7 +75,8 @@ const Portfolio = () => {
       // install Swiper modules
       modules={[Pagination]}
       spaceBetween={40}
-      slidesPerView={2}
+      slidesPerView={1}
+      
       pagination={{ clickable: true }}>
 
         {
