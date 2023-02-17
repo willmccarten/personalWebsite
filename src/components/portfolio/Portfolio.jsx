@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG1 from '../../assets/atlas.png'
+import IMG2 from '../../assets/aman.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -20,16 +20,16 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Portfolio Item 1',
-    github: 'https://github.com/willmccarten',
-    demo: 'https://github.com/willmccarten'
+    title: 'Gator Atlas',
+    github: 'https://github.com/matbensch/DragonBallSWE',
+    demo: 'https://youtu.be/76k2--H7xm8'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Portfolio Item 2',
-    github: 'https://github.com/willmccarten',
-    demo: 'https://github.com/willmccarten'
+    title: 'Project A.M.A.N.',
+    github: 'https://github.com/jkirkland722/Project-AMAN',
+    demo: 'https://youtu.be/aN7y0A3oTF0'
   },
   {
     id: 3,
@@ -92,6 +92,8 @@ const Portfolio = () => {
         }
 
       </Swiper>
+
+      
     </section>
   )
 }
