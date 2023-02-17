@@ -1,7 +1,9 @@
 .portfolio__container {
+    padding-bottom: 2.8rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2.5rem;
+    
 }
 
 .portfolio__item {
@@ -12,10 +14,12 @@
     transition: var(--transition);
 }
 
+/*
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
 }
+*/
 
 .portfolio__item-image {
     border-radius: 1.5rem;
@@ -24,26 +28,40 @@
 
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
+    text-align: center;
 }
 
 .portfolio__item-cta {
+    justify-content: center;
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+
 /* Media Queries (Medium Devices)*/
 @media screen and (max-width: 1024px) {
     .portfolio__container {
+        width: var(--conatiner-width-md);
+
+
+        /*
         grid-template-columns: repeat(2, 1fr);
         gap: 1.2rem;
+        */
     }
 }
 
 /* Media Queries (Small Devices)*/
 @media screen and (max-width: 600px) {
     .portfolio__container {
+        width: var(--container-width-sm);
+        /*
         grid-template-columns: 1fr;
         gap: 1rem;
+        */
     }
 }
