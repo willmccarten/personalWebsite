@@ -29,12 +29,14 @@ header {
     bottom: 3rem;
 }
 
+/* 
 .header__socials::after {
     content: '';
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
 }
+ */
 
 /* image */
 .me {

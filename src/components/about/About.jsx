@@ -8,6 +8,7 @@ import {ImCamera} from 'react-icons/im'
 const About = () => {
   return (
     <section id='about'>
+      
       <h5>Get to Know</h5>
       <h2>About Me</h2>
 
@@ -23,25 +24,26 @@ const About = () => {
             <article className="about__card">
               <MdWork className='about__icon'/>
               <h5>Experience</h5>
-              <small>Looking Still Lol</small>
+              <small>On the hunt for first SWE internship</small>
             </article>
 
             <article className="about__card">
               <AiOutlineFundProjectionScreen className='about__icon'/>
               <h5>Projects</h5>
-              <small>This Website</small>
+              <small>Gator Atlas, Project A.M.A.N., Portfolio Website</small>
             </article>
 
             <article className="about__card">
               <ImCamera className='about__icon'/>
               <h5>Hobbies</h5>
-              <small>Photography, Hiking, Sports</small>
+              <small>Photography, Hiking, Sports, Design</small>
             </article>
           </div>
 
           <p>
             I am a third year computer science student at the University of Florida, with an expected graduation of May of 2024.
-            I am currently in search of an software engineering internship for the summer of 2023. My interests include web development, mobile development, and UX Design.
+            I am currently in search of an software engineering internship for the summer of 2023. My professional interests include web development, Artificial Intelligence, and UX Design.
+            In my free time, I enjoy street and nature photography, hiking, and playing sports with friends.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

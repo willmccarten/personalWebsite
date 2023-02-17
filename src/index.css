@@ -60,7 +60,12 @@ section {
     margin-top: 8rem;
 }
 
-section > h2, section > h5 {
+section > h2 {
+    text-align: center;
+    color: var(--color-light);
+}
+
+section > h5 {
     text-align: center;
     color: var(--color-light);
 }
