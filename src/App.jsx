@@ -9,6 +9,7 @@ import About from './components/about/About'
 import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
 
+/*
 /// Blob mouse JS stuff
 const blob = document.getElementById('blob')
 document.body.onpointermove = event => {
@@ -20,12 +21,16 @@ document.body.onpointermove = event => {
   }, { duration: 3000, fill: 'forwards'});
 } 
 
+// you would put this in the html below
+    <div id='blob'></div>
+    <div id='blur'></div>
+*/
+
 
 const App = () => {
   return (
     <>
-        <div id='blob'></div>
-        <div id='blur'></div>
+        
         <Header />
         <Nav />
         <About />

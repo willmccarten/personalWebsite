@@ -32,7 +32,7 @@ html {
 ::-webkit-scrollbar {
     display: none;
 }
-
+/*
 #blob {
     background-color: #fff;
     height: 500px;
@@ -64,6 +64,7 @@ html {
     }
 }
 
+
 #blur {
     height: 100%;
     width: 100%;
@@ -71,7 +72,7 @@ html {
     z-index: 2;
     backdrop-filter: blur(200px);
 }
-
+*/
 body {
     background-color: var(--color-bg);
     color: var(--color-white);
@@ -79,6 +80,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
+    z-index: 3;
 }
 
 /* General Styles */
