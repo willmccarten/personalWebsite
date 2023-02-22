@@ -9,9 +9,23 @@ import About from './components/about/About'
 import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
 
+/// Blob mouse JS stuff
+const blob = document.getElementById('blob')
+document.body.onpointermove = event => {
+  const { clientX, clientY } = event;
+
+  blob.animate({
+    left: `${clientX}px`,
+    top: `${clientY}px`
+  }, { duration: 3000, fill: 'forwards'});
+} 
+
+
 const App = () => {
   return (
     <>
+        <div id='blob'></div>
+        <div id='blur'></div>
         <Header />
         <Nav />
         <About />
