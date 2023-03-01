@@ -55,7 +55,8 @@ input, textarea {
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white);
+    color: var(--color-light);
+    font-size: 1rem;
 }
 
 /* Media Queries (Medium Devices)*/

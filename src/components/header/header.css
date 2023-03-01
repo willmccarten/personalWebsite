@@ -100,8 +100,7 @@ header {
         height: 85%;
     }
 
-    .header__socials,
-    .scroll__down {
+    .header__socials, .scroll__down {
         display: none;
     }
 }

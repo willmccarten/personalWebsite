@@ -2,6 +2,8 @@ import React from 'react'
 import './footer.css'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {IoLogoTwitter} from 'react-icons/io'
+import {BsLinkedin} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs'
 
 
 const Footer = () => {
@@ -38,8 +40,8 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.instagram.com/whallium/" target="_blank"><AiOutlineInstagram/></a>
-        <a href="https://twitter.com/WillMccarten" target="_blank"><IoLogoTwitter/></a>
+        <a href='https://linkedin.com/in/william-mccarten' target="_blank" rel='noreferrer'><BsLinkedin/></a>
+        <a href='https://github.com/willmccarten' target="_blank" rel='noreferrer'><BsGithub/></a>
       </div>
 
       {/*

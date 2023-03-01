@@ -88,6 +88,7 @@ body {
     line-height: 1.7;
     background-image: url(../src/assets/swirl.png);
     background-color: var(--color-bg);
+    background-size: contain;
 
 }
 
