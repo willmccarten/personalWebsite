@@ -82,12 +82,12 @@ html {
 }
 */
 body {
-    background-color: var(--color-bg);
     color: var(--color-white);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    background-image: url(../src/assets/swirl.png);
+    background-color: var(--color-bg);
 
 }
 
