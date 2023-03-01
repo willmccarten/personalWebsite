@@ -24,7 +24,7 @@ const About = () => {
             <article className="about__card">
               <MdWork className='about__icon'/>
               <h5>Experience</h5>
-              <small>On the hunt for first SWE internship, check out CV for other</small>
+              <small>On the hunt for first SWE internship, check out CV for more!</small>
             </article>
 
             <article className="about__card">
