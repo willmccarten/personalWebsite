@@ -24,13 +24,13 @@ const About = () => {
             <article className="about__card">
               <MdWork className='about__icon'/>
               <h5>Experience</h5>
-              <small>On the hunt for first SWE internship</small>
+              <small>On the hunt for first SWE internship, check out CV for other</small>
             </article>
 
             <article className="about__card">
               <AiOutlineFundProjectionScreen className='about__icon'/>
               <h5>Projects</h5>
-              <small>Gator Atlas, Project A.M.A.N., Portfolio Website</small>
+              <small>Gator Atlas, Project A.M.A.N., Portfolio Website, More coming soon!</small>
             </article>
 
             <article className="about__card">
@@ -42,7 +42,7 @@ const About = () => {
 
           <p>
             I am a third year computer science student at the University of Florida, with an expected graduation of May of 2024.
-            I am currently in search of an software engineering internship for the summer of 2023. My professional interests include web development, Artificial Intelligence, and UX Design.
+            I am currently in search of a software engineering internship for the summer of 2023. My professional interests include Web Development, Artificial Intelligence, and UX Design.
             In my free time, I enjoy street and nature photography, hiking, and playing sports with friends.
           </p>
 
