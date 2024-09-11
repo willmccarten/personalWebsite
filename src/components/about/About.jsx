@@ -24,7 +24,7 @@ const About = () => {
             <article className="about__card">
               <MdWork className='about__icon'/>
               <h5>Experience</h5>
-              <small>Project Management, Business Analyst, Client Services, check out CV for more!</small>
+              <small>Full Stack Engineer, IT Project Management, Business Analyst, Client Services</small>
             </article>
 
             <article className="about__card">
@@ -41,7 +41,7 @@ const About = () => {
           </div>
 
           <p>
-            I am a fourth year computer science student at the University of Florida, with an expected graduation of May of 2024.
+            I am a fourth year computer science student at the University of Florida, with an expected graduation of December of 2024.
             I am currently in search of a full-time software development, technology analyst, business anlayst, or project management position starting the summer of 2024. My professional interests include Web Development, Artificial Intelligence, and UX Design.
             In my free time, I enjoy street and nature photography, hiking, and playing sports with friends.
           </p>
